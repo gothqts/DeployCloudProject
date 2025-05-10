@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Бронирование</title>
+</head>
+<body>
+    <h1>Бронирование: {{ movie.title }}</h1>
+    <form method="POST">
+        <label>Дата: <input type="date" name="date" required></label><br>
+        <label>Ряд: <input type="number" name="row" min="1" max="10" required></label><br>
+        <label>Место: <input type="number" name="seat" min="1" max="20" required></label><br>
+        <button type="submit">Забронировать</button>
+    </form>
+</body>
+</html>
