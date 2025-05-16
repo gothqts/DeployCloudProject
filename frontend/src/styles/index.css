@@ -1,0 +1,10 @@
+.header {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(90deg, #ff4d4d, #4d79ff, #ffd700);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

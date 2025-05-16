@@ -1,0 +1,82 @@
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.currentColorSection {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.colorDisplay {
+    width: 150px;
+    height: 150px;
+    margin: 1rem auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border: 3px solid white;
+}
+
+.colorHex {
+    font-family: monospace;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.historyHeader {
+    margin: 2rem 0 1rem;
+    color: #333;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.tableContainer {
+    overflow-x: auto;
+    margin-bottom: 2rem;
+}
+
+.mixTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.mixTable th, .mixTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.mixTable th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #333;
+}
+
+.colorCell {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+}
+
+.backLink {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    background-color: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.backLink:hover {
+    background-color: #5a6268;
+}
