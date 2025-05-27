@@ -3,6 +3,7 @@ import type {IColors, IInputValues} from "../../types.ts";
 import styles from './selectColors.module.css';
 import {urls} from "../../navigate/urls.ts";
 import {useNavigate} from "react-router";
+import selectColorsApi from "./selectColors.api.ts";
 
 const SelectColors = () => {
     const navigate = useNavigate();
@@ -30,7 +31,9 @@ const SelectColors = () => {
     };
 
     const handleSubmit = (e: React.FormEvent) => {
+
         e.preventDefault();
+        selectColorsApi.mixColors(colors.color1, colors.color2)
         setIsSubmitted(true);
         navigate(urls.result);
         console.log('Submitted colors:', colors);

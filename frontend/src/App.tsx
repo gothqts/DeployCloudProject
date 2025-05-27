@@ -5,7 +5,7 @@ import {urls} from "./navigate/urls.ts";
 
 const App = () => {
     useEffect(() => {
-        if (location.pathname==='/'){
+        if (location.pathname === '/') {
             location.replace(urls.selectColor)
         }
     })
