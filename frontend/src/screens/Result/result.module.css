@@ -80,3 +80,22 @@
 .backLink:hover {
     background-color: #5a6268;
 }
+.actionButton {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.actionButton:hover {
+    background-color: #45a049;
+}
+
+.editSelect {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
