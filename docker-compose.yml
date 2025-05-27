@@ -1,0 +1,10 @@
+
+services:
+  nginx:
+    image: nginx:stable-alpine
+    ports:
+      - "80:80"
+      - "80:443"
+  frontend:
+    build:
+      context: ./frontend
