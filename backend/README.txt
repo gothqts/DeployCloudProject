@@ -36,3 +36,36 @@ GET https://"api-gateway"/mixes?action=get_mixes
         "timestamp": "2023-10-01 12:00:00"
     }
 ]
+
+3. Изменить mix
+PUT https://"api-gateway"/mixes
+{
+    "id": 1,
+    "color1": "blue",
+    "color2": "red"
+}
+Ответ:
+[
+    {
+        {
+            "id": 1,
+            "color1": "blue",
+            "color2": "red",
+            "result": "purple",
+        }
+    }
+]
+
+4. Удалить mix
+DELETE https://"api-gateway"/mixes
+
+{
+    "id": 1,
+}
+
+Ответ:
+[
+  {
+      "id": 1,
+  }
+]
